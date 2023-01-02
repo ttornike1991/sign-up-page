@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <div class="container flex yyy"> 
+        <div class="imgIlustration"></div>
+        <section class="signUp ">
+            
+            <h5 class="toggleDarkLight">Dark Mode</h5>
+            <h2 class="h2modechange">Signup</h2>
+            <h6>There is no charge upon registration!</h6>
+            <form action="" class="flex flexColumn formClass">
+                <label for="email">Email address</label>
+                <input  class="allInput "  type="email" name="" id="email" value="hello@mysite.ge">
+                <p class="emailcaution  noVisible">Check if your mail address includes "@" and ends with ".ge"</p>
+                <label for="country">Country</label>
+                
+                <select name="" id="country" class="allInput" required>
+                    <option class="opt" value="selected" selected>Your Country</option>
+                    <option class="opt" value="Georgia"  >Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="England">England</option>
+                    <option value="Japan">Japan</option>
+                    <option value="France">France</option>
+                </select>
+                <p class="countryCoution noVisible">Please select Country</p>
+                <div class="cityZip flex">
+                    <div>
+                        <label for="City">City</label>
+                        <input class="allInput " type="text" name="" id="City" placeholder="Tbilisi"  >
+                        <p class="cityCoution  noVisible"> Enter City</p>
+                    </div>
+                    <div>
+                        <label for="zipCode">Zip Code</label>
+                        <input class="allInput"  type="number" name="" id="zipCode" placeholder="0131"  >
+                        <p class="zipcautin noVisible">Enter ZIP</p>
+                    </div>
+
+                </div>
+                <button class="signUpNow" type="submit"> Signup now </button>
+            </form>
+            <div class="flex coupleBtn">
+                <button class="BTNS" type="submit">Signup with Facebook</button>
+                <button   class="BTNS" type="submit">Signup with Facebook</button>
+            </div>
+
+        </section>
+        
+    </div>
+    <section class="signUp signUp2 xxx ">
+            
+        <h5 class="toggleDarkLight toggleDarkLight2">Dark Mode</h5>
+        <h2 class="h2modechange2">Signup</h2>
+        <h6>There is no charge upon registration!</h6>
+        <form action="" class="flex flexColumn formClass formClass2">
+            <label for="email">Email address</label>
+            <input  class="allInput2  "  type="email" name="" id="email" value="hello@mysite.ge" placeholder="hello@mysite.ge">
+            <p class="emailcaution2  noVisible  ">Check if your mail address includes "@" and ends with ".ge"</p>
+            <label for="country">Country</label>
+            
+            <select name="" id="country" class="allInput2 " required>
+                
+                <option class="opt" value="selected" selected >Your Country</option>
+                <option class="opt" value="Georgia"  >Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="England">England</option>
+                <option value="Japan">Japan</option>
+                <option value="France">France</option>
+            </select>
+            <p class="countryCoution2 noVisible">Please select Country</p>
+            <div class="cityZip flex">
+                <div>
+                    <label for="City">City</label>
+                    <input class="allInput2 City2" type="text" name="" id="City " placeholder="Tbilisi" required>
+                    <p class="cityCoution2 noVisible">Please select Country</p>
+                </div>
+                <div>
+                    <label for="zipCode">Zip Code</label>
+                    <input class="zipCode2 allInput2 "  type="number" name="" id="zipCode" placeholder="0131" required>
+                    <p class="zipcautin2 noVisible">Enter ZIP</p>
+                </div>
+            </div>
+            <button class="signUpNow signUpnow2" type="submit"> Signup now </button>
+        </form>
+        <div class="flex coupleBtn">
+            <button class="BTNS" type="submit">Signup with Facebook</button>
+            <button   class="BTNS" type="submit">Signup with Facebook</button>
+        </div>
+
+    </section>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
