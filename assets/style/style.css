@@ -203,22 +203,8 @@ color: #FFFFFF;
     right: 10%;
     top:24%;
 }
-.emailcaution2{
-    font-size: 14px;
-    color: rgba(211, 14, 14, 0.781);
-    margin: 0 auto;
-    position: absolute;
-    top:23.5%;
-    left: 12%;
-    
-}
-.countryCoution2{
-    color: rgba(255, 0, 0, 0.781);
-    position: absolute;
-    top:50%;
-    left: 13%;
 
-}
+
 .countryCoution{
     color: rgba(255, 0, 0, 0.781);
     position: absolute;
@@ -226,11 +212,7 @@ color: #FFFFFF;
     left: 8%;
 
 }
-.zipcautin2{
-    color: rgba(255, 0, 0, 0.781);
-    position: absolute ;
-    left:165px;
-}
+
 .zipcautin{
     color: rgba(255, 0, 0, 0.781);
     position: absolute ;
@@ -274,14 +256,7 @@ color: #FFFFFF;
      
 
 }
-.cityCoution2{
-    width: 100px !important;
-    color: red;
-    position: absolute;
-    left:9.5%;
-     
 
-}
 
 
 .darkModeCoverPhoto{
@@ -310,100 +285,137 @@ color: #FFFFFF;
 
 @media (max-width: 768px){
     .yyy{
-        display: none;
+        display: none!important;
     }
     .xxx{
         display: block;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        
-
-    }
-    .toggleDarkLight{
-        margin-top: 0 ;
-        margin-left: 90%;
-    }
-    
-    .formClass{
-        margin: auto;
-        width: 80%;
-        padding-bottom: 20px!important;
-    }
-    .formClass * {
-        width: 80%;
-    };
-
-    input{
-        width:80%;
-        margin: auto;
-    }
-    #country {
-        width:80%!important;
-        margin: auto;
-    }
-    .h2modechange{
-        margin-left: 38px!important;
-        width: 40%;
-    }
-    h6{
-       margin-left: 38px!important;
-       margin-bottom: 5px;
-        width: 70%;
-    }
-    .allInput {
-        width:80%!important;
-    }
-    .allInput2 {
-        width:80%!important;
-    }
-    .coupleBtn{
-        margin: auto!important;
-        align-items: center!important;
-        justify-content: center!important;
-        padding: 0;
-        margin-top: 60px!important;
-        margin-bottom: 80px!important;
-        width: 80%!important;
-        height: 140px;
-       
-       flex-direction: column 
-        !important;
-        align-items: center !important;
-        
-    }
-    .BTNS{
-        margin-bottom: 30px!important;
-    }
-    .cityZip{
-        width: 90%!important;
-    }
-    body, html{
-        height: 100vh!important;
+        margin: initial!important;
+        width: 100vw!important;
         background-color: white!important;
     }
-}
 
-@media (max-width: 376px){
-    .coupleBtn{
-        display: flex;
-        flex-direction: row!important;
+    .toggleDarkLight{
+        display: block;
+
+        margin: 0!important;
+        width: 40px!important;
+        padding-top: 20px;
+        margin-left: auto!important;
+          
     }
-    .coupleBtn{
-        height: 20px!important;
-        margin: auto!important;
-        gap: 20px!important;
-        padding: 0!;
-    }
-    .coupleBtn .BTNS{
-        width: 70% !important;
-        height: 40px!important;
-        margin: auto;
-        padding: 0 5px;
-        margin-bottom: 5px!important;
+
+    
+    html {
+         
+        all:initial!important;
+         
+         
         
     }
-    .formClass{
-        padding-bottom: 1px!important;
+    body {
+        
+        all:initial!important;
     }
+    .formClass{
+         
+        margin: 0!important;
+        justify-content: center!important;
+         width: 70%!important;
+        margin: auto!important;
+        
+    }
+
+    .coupleBtn{
+        width:70%!important;
+        justify-content: space-between!important;
+        margin-top: 0px!important;
+}
+    .coupleBtn button{
+        width:40%!important;
+    }
+
+    .formClass label {
+        margin-left: 6px;
+    }
+    #email,#country{
+        width:auto;
+        margin: 0;
+    }
+    .cityZip{
+        align-items: center;
+        justify-content: center;
+    }
+    .cityZip div{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+         
+    }
+    .signUpNow {
+        width: 60%!important;
+    }
+   .h2modechange2, h6{
+        margin-left: 65px!important;
+        margin: auto!important;
+        width:70%!important;
+    }
+    .cityZip div input{
+        margin: 0;
+        width: 100%!important;
+    }
+    .zipCode{
+        width:50%;
+    }
+    .signUp{
+         height: 100vh!important;
+          width: 100vw!important;
+    }
+    .zipcautin2{
+        width: 90px;
+        color: rgba(255, 0, 0, 0.781);
+        position: absolute ;
+        left:51%;
+    }
+     
+    .countryCoution2{
+        width: 200px;
+        color: rgba(255, 0, 0, 0.781);
+        position: absolute;
+        top:48%;
+        left: 2%;
+    
+    }
+    .cityCoution2{
+        width: 100px!important;
+        color: red;
+        position: absolute;
+        left:2%;
+         
+    
+    }
+      
+    .emailcaution2{
+        font-size: 14px;
+        color: rgba(211, 14, 14, 0.781);
+        margin: 0 auto;
+        position: absolute;
+        top:23.5%;
+        left: 2%;
+        
+    }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100% !important;
+    overflow-x:hidden!important;
+  }
+
 }
