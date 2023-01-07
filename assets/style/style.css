@@ -40,7 +40,7 @@ html{
     bottom: 0px;
     width:953px;
     height: 755px;
-    background: url(/assets/img/Illustration\ \(1\).png);
+    background: url(/sign-up-page/assets/img/Illustration\ \(1\).png);
     mix-blend-mode: hard-light;
     background-repeat: no-repeat;
 
@@ -265,20 +265,20 @@ color: #FFFFFF;
     bottom: 0px;
     width:953px;
     height: 755px;
-    background: url(/assets/img/Illustration\ \(1\).png);
+    background: url(/sign-up-page/assets/img/Illustration\ \(1\).png);
     mix-blend-mode: hard-light;
     background-repeat: no-repeat;
 }
 
 .illustration2{
-    background: url(/assets/img/Illustration.png)!important;
+    background: url(/sign-up-page/assets/img/Illustration.png)!important;
 }
 
 
 
 #country{
     position: relative;
-    background-image: url(/assets/img/Change.png);
+    background-image: url(/sign-up-page/assets/img/Change.png);
     background-position: 90%;
     background-repeat: no-repeat;
 }
