@@ -8,7 +8,7 @@
 body{
     margin: auto;
     max-height: 1024px;
-    max-width: 1440px;
+    max-width: 100%;
 }
 .xxx{
     display: none;
@@ -20,8 +20,8 @@ html{
 }
 .container{
     margin: 0px auto;
-    width: 1440px;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 100%;
     height: 1024px;
     max-height: 1024px;
 }
@@ -291,7 +291,7 @@ color: #FFFFFF;
         display: block;
         margin: initial!important;
         width: 100vw!important;
-        background-color: white!important;
+         
     }
 
     .toggleDarkLight{
@@ -328,7 +328,8 @@ color: #FFFFFF;
     .coupleBtn{
         width:70%!important;
         justify-content: space-between!important;
-        margin-top: 0px!important;
+        margin-top: 20px!important;
+
 }
     .coupleBtn button{
         width:40%!important;
@@ -406,6 +407,33 @@ color: #FFFFFF;
 
 }
 
+@media (max-width: 400px){
+    .coupleBtn{
+        height: 20px!important;
+         
+    }
+    .coupleBtn button{
+        height: 40px!important;
+        
+    }
+    .signUp2{
+        height: 100%;
+    }
+    .h2modechange2 {
+        margin: 0;
+        padding: 0!important;
+    }
+}
+@media (max-width: 400px){
+    .signUp2{
+        height: 100%;
+    }
+    .coupleBtn{
+        margin-top: 10px !important;
+        padding-bottom: 0px!important;
+    }
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -414,8 +442,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 
   html,
   body{
-    width:100% !important;
-    overflow-x:hidden!important;
+    width:100%;
+    overflow-x:hidden;
   }
 
 }
